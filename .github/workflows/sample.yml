@@ -4,9 +4,9 @@ jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
     steps:
-      -name: string
-       run: echo "welcome"
-      -name: multiline script
-       run: |
+      - name: string
+        run: echo "welcome"
+      - name: multiline script
+        run: |
            node -v
            npm -v
